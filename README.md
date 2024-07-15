@@ -1,21 +1,38 @@
 # Ccwc
 
-**TODO: Add description**
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ccwc` to your list of dependencies in `mix.exs`:
+Below are the commands used to run
 
-```elixir
-def deps do
-  [
-    {:ccwc, "~> 0.1.0"}
-  ]
-end
++ To fetch the number of characters
+
+```
+./ccwc -m "{File path}"
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/ccwc>.
 
++ To fetch the number of words
+
+```
+./ccwc -w "{File path}"
+```
+
+
++ To get the Binary count
+
+```
+./ccwc -c "{File path}"
+```
+
+
++ To fetch the lines count
+
+```
+./ccwc -l "{File path}"
+```
+
++ To fetch all items, use
+
+```
+./ccwc  "{File path}"
+```
