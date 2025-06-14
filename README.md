@@ -1,5 +1,7 @@
-# Ccwc
+# WC
 
+### Based on the coding challenge
+https://codingchallenges.fyi/challenges/challenge-wc
 
 
 Below are the commands used to run
